@@ -22,7 +22,7 @@ Run docker with the `python:3.12.8` image in an interactive mode, use the entryp
 
 What's the version of `pip` in the image?
 
-- 24.3.1
+- 24.3.1 this one
 - 24.2.1
 - 23.3.1
 - 23.2.1
@@ -66,9 +66,9 @@ volumes:
 
 - postgres:5433
 - localhost:5432
-- db:5433
+- db:5433 this one
 - postgres:5432
-- db:5432
+- db:5432 this one
 
 If there are more than one answers, select only one of them
 
@@ -95,16 +95,20 @@ you want to use Jupyter or a python script.
 ## Question 3. Trip Segmentation Count
 
 During the period of October 1st 2019 (inclusive) and November 1st 2019 (exclusive), how many trips, **respectively**, happened:
-1. Up to 1 mile
+1. Up to 1 mile 
+104802
 2. In between 1 (exclusive) and 3 miles (inclusive),
+198924
 3. In between 3 (exclusive) and 7 miles (inclusive),
-4. In between 7 (exclusive) and 10 miles (inclusive),
-5. Over 10 miles 
-
+109603
+5. In between 7 (exclusive) and 10 miles (inclusive),
+27678
+7. Over 10 miles 
+35189
 Answers:
 
 - 104,802;  197,670;  110,612;  27,831;  35,281
-- 104,802;  198,924;  109,603;  27,678;  35,189
+- 104,802;  198,924;  109,603;  27,678;  35,189 this one
 - 104,793;  201,407;  110,612;  27,831;  35,281
 - 104,793;  202,661;  109,603;  27,678;  35,189
 - 104,838;  199,013;  109,645;  27,688;  35,202
@@ -120,7 +124,7 @@ Tip: For every day, we only care about one single trip with the longest distance
 - 2019-10-11
 - 2019-10-24
 - 2019-10-26
-- 2019-10-31
+- 2019-10-31 this one
 
 
 ## Question 5. Three biggest pickup zones
@@ -130,7 +134,7 @@ Which were the top pickup locations with over 13,000 in
 
 Consider only `lpep_pickup_datetime` when filtering by date.
  
-- East Harlem North, East Harlem South, Morningside Heights
+- East Harlem North, East Harlem South, Morningside Heights this one
 - East Harlem North, Morningside Heights
 - Morningside Heights, Astoria Park, East Harlem South
 - Bedford, East Harlem North, Astoria Park
@@ -147,7 +151,7 @@ Note: it's `tip` , not `trip`
 We need the name of the zone, not the ID.
 
 - Yorkville West
-- JFK Airport
+- JFK Airport this one
 - East Harlem North
 - East Harlem South
 
@@ -174,7 +178,7 @@ Answers:
 - terraform import, terraform apply -y, terraform destroy
 - teraform init, terraform plan -auto-apply, terraform rm
 - terraform init, terraform run -auto-approve, terraform destroy
-- terraform init, terraform apply -auto-approve, terraform destroy
+- terraform init, terraform apply -auto-approve, terraform destroy this one
 - terraform import, terraform apply -y, terraform rm
 
 
